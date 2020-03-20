@@ -13,8 +13,11 @@ nav {
   }
 
   .nav-links {
-    width: 50rem;
+    width: 50%;
     .flex();
+    @media @phone {
+      width: 100%;
+    }
     justify-content: space-evenly;
 
     a {
