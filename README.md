@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+   - Responsive is fluid and adapts to the size of the screen no matter what the target device.
+   - Adaptive design uses static layouts based on breakpoints which don't respond once they're initially loaded.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+   - Mobile first you make the design for the mobile first then you scale up.
+   - Desktop first you make the desktop design first then you scale down.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+   - 62.5% makes the defualt font size for the entire page which makes 1rem 10px
+
 4. How would you describe preprocessing to someone new to CSS?
 
+   - Preprocessing makes it easier for you to not repeat your code multiple times. You can write it once and call it multple times.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+   - Mixing is my favorite concept.
+   - Nothing really gives me trouble in preprocessing.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
@@ -93,7 +105,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-- [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+- [x] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
 - [x] Add a viewport meta tag to the head of your index.html page
 
@@ -113,11 +125,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-- [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+- [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-- [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+- [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-- [ ] Push your changes and create a pull request if you haven't already.
+- [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -127,7 +139,7 @@ After finishing your required elements, you can push your work further. These go
 
 - [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
-- [ ] Introduce CSS animations to your site.
+- [x] Introduce CSS animations to your site.
 
 - [ ] Create a fixed navigation and add some opacity to the background
 
