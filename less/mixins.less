@@ -1,1 +1,22 @@
 // Mixins Here
+.button(@btn-color,@bg-color) {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  background-color: @bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: @btn-color;
+}
+
+.flex() {
+  display: flex;
+}
+
+.links() {
+  text-decoration: none;
+  color: @nav-font;
+  font-size: 20px;
+}
